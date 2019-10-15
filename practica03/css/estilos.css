@@ -1,0 +1,147 @@
+body
+{
+	background: rgb(240 240 240);
+	font-family: 'Helvetica';
+	font-size: 16px; /*1em*/
+	margin: 0px auto; /*Centrar pantalla*/
+	max-width: 2000px; /*Cliente*/
+	min-width: 2000px;*/
+}
+header
+{
+	background: rgb(240 240 240);
+}
+header nav input
+{
+	background: rgb(238 238 238);
+	border: 1px solid lightgray;
+	border-radius: 1px;
+	font-size: 1.2em;
+	margin-left: 100px;
+	margin-right: 55px; 
+	padding: 3px;
+	padding-top: 12px;
+	position: relative;
+	text-align: right;
+	top: -65px;
+}
+header nav img
+{
+	margin-bottom: 20px;
+	margin-top: 8px;
+}
+
+#contact
+{
+	margin-left: 200px;
+}
+#links
+{
+	margin-left: 200px;
+}
+#menuLogo
+{
+	padding-left: 110px;
+	padding-top: 50px;
+}
+#secc01
+{
+	background: rgb(43 43 43);
+	margin-bottom: 1px;
+	padding: 20px;
+}
+#secc01 article
+{
+	display: inline-block;
+	margin-right: -5px;
+}
+#secc01art01
+{
+	width: 20%;
+}
+#secc01art01 ul
+{
+	margin: 70px 0px 70px 70px; 
+}
+#secc01art01 ul li
+{
+	color: white;
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+#secc01verde
+{
+	background: rgb(180 208 82);
+	padding: 80px 5px 85px 40px;
+	vertical-align: top;
+	width: 17%;
+}
+#secc01gris
+{
+	background: rgb(84 84 84);
+	padding: 80px 8px 85px 40px;
+	vertical-align: top;
+	width: 17%;
+}
+#secc01rojo
+{
+	background: rgb(212 45 63);
+	padding: 80px 9px 117px 40px;
+	vertical-align: top;
+	width: 17%;
+}
+#secc01grisclaro
+{
+	background: rgb(228 228 228);
+	padding: 80px 8px 85px 40px;
+	vertical-align: top;
+	width: 17%;
+}
+#secc02
+{
+	background: rgb(43 43 43);
+	padding: 30px 20px 20px 20px;
+}
+#secc02 article
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+}
+#secc02 img
+{
+	text-align: center;
+}
+
+.azul
+{
+	color: rgb(73 109 129);
+}
+.blanco
+{
+	color: white;
+}
+.derecha
+{
+	float: right;
+}
+.desv
+{
+	color: rgba(255, 255, 255, 0.3);
+}
+.gris
+{
+	color: rgb(128 128 128);
+}
+.grisClaro
+{
+	color: rgb(158 158 158);
+}
+.negrita
+{
+	font-weight: bold;
+}
+.titulo
+{
+	font-size: 2.8em;
+}
