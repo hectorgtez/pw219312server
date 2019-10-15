@@ -5,27 +5,168 @@ body
 	max-width: 1024px;
 	min-width: 1024px;
 }
+header nav
+{
+	margin-left: -20px;
+}
 header nav ul li
 {
 	display: inline-block;
+	font-family: 'Helvetica';
+	font-size: 1.1em;
+	font-weight: bold;
 	margin-right: 20px;
+	margin-top: 40px;
+}
+footer
+{
+	color: rgba(0, 0, 0, 0.5);
+	margin-top: -70px;
+}
+footer section
+{
+	display: inline-block;
+	margin-top: 60px;
+}
+footer section article
+{
+	display: inline-block;
+	margin-right: 27px;
+	vertical-align: top;
+	width: 17%;
+}
+footer section article h2
+{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+	font-family: 'Helvetica';
+	font-size: 1em;
+	padding-bottom: 10px;
+}
+footer section article ul
+{
+	list-style-type: none;
+	margin-left: -40px;
+	margin-top: -18px;
 }
 
-#logo
+#bandera
 {
+	float: right;
+	margin-right: 8px;
+	margin-top: 5px;
+	vertical-align: top;
+}
+#bike
+{
+	width: 400px;
+}
+#buy
+{
+	left: 380px;
+	position: relative;
+	top: 100px;
+	width: 60px;
+}
+#firstBike
+{
+	margin-left: 20px;
 	margin-top: 15px;
 }
-#separador
+#fiveYears
+{
+	position: relative;
+	top: -100px;
+}
+#goToShop
+{
+	left: 370px;
+	position: relative;
+	top: 45px;
+	width: 170px;
+}
+#logoRojo
+{
+	float: right;
+	margin-right: 8px;
+	margin-top: 5px;
+	vertical-align: top;
+}
+#mundo
+{
+	float: right;
+	margin-right: 8px;
+	margin-top: 5px;
+	vertical-align: top;
+}
+#redesSociales
+{
+	position: relative;
+	top: 20px;
+}
+#secc01
+{
+	display: inline-block;
+}
+#secc01art01
+{
+	display: inline-block;
+	margin-right: 20px;
+	position: relative;
+	top: -104px;
+	width: 51%;
+}
+#secc01art01art01
+{
+	display: inline-block;
+	margin-top: 40px;
+	text-align: center;
+}
+#secc01art01art01 img
+{
+	width: 48%;
+}
+#secc01art02
+{
+	display: inline-block;
+	width: 40%;
+}
+#separador01
 {
 	border-top: dashed;
-	color: rgba(0, 0, 0, 0.5);
+	color: rgba(0, 0, 0, 0.3);
+	margin-top: 50px;
+}
+#separador02
+{
+	border-top: dashed;
+	color: rgba(0, 0, 0, 0.3);
+	margin: 20px 0px 40px 0px;
+}
+#video01
+{
+	margin-right: 15px;
 }
 
+.colorTenue
+{
+	color: rgba(0, 0, 0, 0.7);
+}
 .colorVerde
 {
 	color: green;
 }
+.letraGrande
+{
+	font-family: 'Helvetica';
+	font-size: 3.2em;
+}
 .negrita
 {
+	font-weight: bold;
+}
+.texto
+{
+	font-family: 'Helvetica';
+	font-size: 0.85em;
 	font-weight: bold;
 }
