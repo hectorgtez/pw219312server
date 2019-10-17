@@ -1,0 +1,100 @@
+img[alt]
+{
+	border: 5px solid blue;
+}
+img[src="img/LOGO_TEC_PNG_OK.png"]
+{
+	width: 400px;
+}
+/*"^" Busca al inicio de la cadena*/
+img[src^="img/"]
+{
+	width: 150px;
+}
+/*"$" Busca al final de la cadena*/
+img[src$="png"]
+{
+	width: 250px;
+}
+/*"*" Busca en cualquier parte de la cadena original*/
+img[src*="mg/"]
+{
+	width: 1000px;
+}
+/*Equivalente a: .resaltado*/
+article[class~="resaltado"]
+{
+	border: 1px dashed blue;
+}
+/*Equivalente a: .ingles*/
+article[class~="ingles"]
+{
+	border: 1px dashed red;
+}
+/*Equivalente a: .archivo*/
+article[class~="archivo"]
+{
+	border: 1px dashed green;
+}
+/*"|" Toma las clases separadas por guiones como clases separadas*/
+article[class|="ingles"]
+{
+	text-align: center;
+}
+/*Hace referencia a los div que tengan como hijos directos etiquetas <p>*/
+div > p
+{
+	color: blue;
+}
+/*Hace referencia a los div que tengan dentro como hijos, directos o no, etiquetas <p>*/
+div p
+{
+	color: red;
+}
+/*Hace referencia al PRIMER <p> despues del h2*/
+h2 + p
+{
+	color: gray;
+}
+/*Hace referencia a TODOS los <p> despues del h2*/
+h2 ~ p
+{
+	color: green;
+}
+#resumen, #experimento, #pruebas, #resultados, #conclusiones
+{
+	color: red;
+}
+/*Hace referencia a todos los "section" excepto a #referencias*/
+section:not(#referencias)
+{
+	color: blue;
+}
+/*nth = cualquier elemento (4th, 5th, etc)*/
+/*odd = impares*/
+li:nth-child(odd)
+{
+	color: green;
+}
+/*nth = cualquier elemento (4th, 5th, etc)*/
+/*even = pares*/
+li:nth-child(even)
+{
+	color: blue;
+}
+/*Quinto elemento de la lista*/
+li:nth-child(5)
+{
+	color: red;
+}
+/*Segundo elemento de la lista de abajo hacia arriba*/
+li:nth-last-child(2)
+{
+	color: purple;
+}
+/*Primera linea de un elemento <p>*/
+p:first-line
+{
+	color: red;
+	font-weight: bold;
+}
