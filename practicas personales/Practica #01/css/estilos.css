@@ -1,0 +1,161 @@
+body
+{
+	font-size: 16px;
+	margin: 0 auto;
+	max-width: 1024px;
+	min-width: 1024px;
+}
+
+#persona
+{
+	margin-bottom: -16px;
+	margin-right: 50px;
+	margin-top: 20px;
+	width: 180px;
+}
+#secc01art01
+{
+	background: rgb(241, 239, 239);
+	display: inline-block;
+	text-align: center;
+	width: 63%;
+}
+#secc01art01art01
+{
+	background: rgb(241, 239, 239);
+	display: inline-block;
+}
+#secc01art01art02
+{
+	background: rgb(241, 239, 239);
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	top: -110px;
+}
+#secc01art01art02 input
+{
+	background: rgb(241, 239, 239);
+	border: 2px solid black;
+	border-radius: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	padding: 10px 20px;
+}
+#secc01art02
+{
+	background: rgb(96, 96, 96);
+	display: inline-block;
+	padding: 79px 0px;
+	text-align: center;
+	vertical-align: top;
+	width: 36.4%;
+}
+#secc01art02 input
+{
+	background: rgb(96, 96, 96);
+	border: 2px solid white;
+	border-radius: 20px;
+	color: white;
+	font-weight: bold;
+	margin-top: 20px;
+	padding: 10px 20px;
+}
+#secc02art01
+{
+	background: rgb(103, 172, 232);
+	display: inline-block;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 0px; 
+	text-align: center;
+	vertical-align: top;
+	width: 45%;
+}
+#secc02art01art01
+{
+	display: inline-block;
+	width: 20%;
+}
+#secc02art01art02
+{
+	display: inline-block;
+	width: 79%;
+}
+#secc02art02
+{
+	background: rgb(211, 220, 208);
+	display: inline-block;
+	margin: 0px; 
+	padding: 47px 0px;
+	text-align: center;
+	vertical-align: top;
+	width: 24%;
+}
+#secc02art02 input
+{
+	background: rgb(211, 220, 208);
+	border: 2px solid black;
+	border-radius: 20px;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+#secc02art03
+{
+	background: rgb(120, 119, 119);
+	display: inline-block;
+	margin: 0px; 
+	padding: 47px 0px;
+	text-align: center;
+	vertical-align: top;
+	width: 30%;
+}
+#secc02art03 input
+{
+	background: rgb(120, 119, 119);
+	border: 2px solid white;
+	border-radius: 20px;
+	color: white;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+#twitter
+{
+	position: relative;
+	left: 30px;
+	top: -35px;
+	width: 50px;
+}
+
+.colorBlanco
+{
+	color: white;
+}
+.colorNegro
+{
+	color: black;
+}
+.cursiva
+{
+	font-style: italic;
+}
+.helvetica
+{
+	font-family: 'helvetica';
+}
+.letraChica
+{
+	font-size: 0.9em;
+}
+.letraGrande
+{
+	font-size: 2.8em;
+}
+.letraMediana
+{
+	font-size: 1.2em;
+}
+.negrita
+{
+	font-weight: bold;
+}
