@@ -29,7 +29,7 @@ controller.delete = (req, res) => {
 	//Equivalente a "const id = req.params.id;"
 	const { id } = req.params;
 	req.getConnection((err,conn) => {
-		conn.query('DELETE FORM customers WHERE id = ?',[id], (err,rows) =>{
+		conn.query('DELETE FROM customers WHERE id = ?',[id], (err,rows) =>{
 			res.redirect('/');
 		});
 	})
@@ -38,7 +38,7 @@ controller.delete = (req, res) => {
 controller.edit = (req, res) => {
 	const { id } = req.params;
 	req.getConnection((err,conn) => {
-		conn.query('SELECT * FROM costumers WHERE id = ?', [id], (err,customer) => {
+		conn.query('SELECT * FROM customers WHERE id = ?', [id], (err,customer) => {
 			//Llamar pantalla edicion de datos
 			res.render('customer-edit', {
 				data: customer[0]
